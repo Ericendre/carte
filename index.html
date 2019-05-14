@@ -21,14 +21,13 @@ var lat = 48.852969;
 var lon = 2.349903;
 var villes = { // seules les villes ajoutées dans ce tableau sont affichées sur la carte
 //Villes de Theo
-    
+    "Versailles": { "lat": 48.801407, "lon": 2.130122 }, 
 //Villes de Agathe
-    "Gaillon sur montcient" : { "lat": 49.025627, "lon": 1.884262 },
     
 //Villes de Elias
- "Dakar":{ "lat": 14.7645042, "lon": -17.3660286},
+    
 //Villes de Margaux
-    "Lesdins": { "lat": 49.897, "lon": 3.328 },
+    
 //Villes de Francesco
     
 //Villes de Evan
@@ -36,17 +35,15 @@ var villes = { // seules les villes ajoutées dans ce tableau sont affichées su
 //Villes de Nicodeme
     
 //Villes de Ines
-  "Milan": { "lat": 45.4654219, "lon": 9.1859243 },
-  "Seville": { "lat": 37.3890924, "lon": -5.9844589},
+    
 //Villes de Nolwenn
-    "Perone": {"lat":49.9333, "lon": 2.9333},
+    
 //Villes de Clement
-    "Anus":{ "lat": 47.5985961, "lon": 3.5304564},
     "Bitche":{ "lat": 49.052426, "lon": 7.4384592},
 //Villes de Remi
     "Collioure": { "lat": 42.51667, "lon": 3.08333}, 
 //Villes de Isabelle
-  "Évreux": { "lat": 49.0241, "lon": 1.1508 },
+    
   "Paris": { "lat": 48.852969, "lon": 2.349903 },
   "Brest": { "lat": 48.383, "lon": -4.500 },
   "Quimper": { "lat": 48.000, "lon": -4.100 },
@@ -116,15 +113,15 @@ window.onload = function(){
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Évreux</div>
-            <div class="card-subtitle text-gray">Capitale du département de l'Eure</div>
+            <div class="card-title h5">Paris</div>
+            <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Évreux est une commune française, préfecture du département de l’Eure en Normandie. Son code postal: 27000.
+            Insérez description...
           </div>
         </div>
       </div>
@@ -132,19 +129,19 @@ window.onload = function(){
         
         <!-- Ville de Theo-->
         <div class="column col-auto">
-        <div id="ville_Paris" class="card bg-dark m-2">
+        <div id="ville_Versailles" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Paris</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Versailles</div>
+            <div class="card-subtitle text-gray"> mon lieu de naissance </div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwisnpqfvZriAhUP1BoKHVJGCA8QjRx6BAgBEAU&url=http%3A%2F%2Fwww.grandevreuxtourisme.fr%2Fpatrimoine-culturel%2Fla-riviere-iton%2F&psig=AOvVaw1es3jrQxgNxd9bLtCOMVLy&ust=1557904631042050" class="img-responsive">
+            <img src="https://cdn130.picsart.com/292504880006201.jpg?c256x256" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Un chateau magnifique ! 
           </div>
         </div>
       </div>
@@ -177,19 +174,15 @@ window.onload = function(){
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Gaillon sur montcient</div>
-            <div class="card-subtitle text-gray">Petit village tout mignon</div>
+            <div class="card-title h5">Paris</div>
+            <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="280px-Gaillon-sur-Montcient_-_mairie02.png" class="img-responsive">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-              Gaillon-sur-Montcient est une commune du département des Yvelines, dans la région Île-de-France, en France. </br>
-
-Le village se trouve dans la vallée de la Montcient, petite rivière affluent de l'Aubette de Meulan. La commune de Gaillon-sur-Montcient se trouve dans le périmètre du parc naturel régional du Vexin français.</br>
-
-Ses habitants sont appelés les Gaillonnais. 
+            Insérez description...
           </div>
         </div>
       </div>
@@ -202,15 +195,15 @@ Ses habitants sont appelés les Gaillonnais.
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Dakar</div>
+            <div class="card-title h5">Paris</div>
             <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Antanas-Juknevicius-Dakar.jpg/320px-Antanas-Juknevicius-Dakar.jpg" class="img-responsive">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Capitale du Sénégal
+            Insérez description...
           </div>
         </div>
       </div>
@@ -219,19 +212,19 @@ Ses habitants sont appelés les Gaillonnais.
         
                 <!-- Ville de Margaux-->
         <div class="column col-auto">
-        <div id="ville_Lesdins" class="card bg-dark m-2">
+        <div id="ville_Paris" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Lesdins</div>
-            <div class="card-subtitle text-gray">Petite Commune</div>
+            <div class="card-title h5">Paris</div>
+            <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Lesdins_le_canal_et_le_vieux_pont.jpg/321px-Lesdins_le_canal_et_le_vieux_pont.jpg" class="img-responsive">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-           Lesdins est une commune française située dans le département de l'Aisne, en région Hauts-de-France. 
+            Insérez description...
           </div>
         </div>
       </div>
@@ -258,7 +251,7 @@ Ses habitants sont appelés les Gaillonnais.
       </div>
         <!-- Fin Ville de Evan-->
         
-        
+        https://cdn130.picsart.com/292504880006201.jpg?c256x256
                 <!-- Ville de Francesco-->
         <div class="column col-auto">
         <div id="ville_Paris" class="card bg-dark m-2">
@@ -303,19 +296,19 @@ Ses habitants sont appelés les Gaillonnais.
         
                 <!-- Ville de Ines-->
         <div class="column col-auto">
-        <div id="ville_Milan" class="card bg-dark m-2">
+        <div id="ville_Paris" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Milan</div>
-            <div class="card-subtitle text-gray"></div>
+            <div class="card-title h5">Paris</div>
+            <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://www.expressionvoyages.com/gpc/_media/Image/milan.jpg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-             Insérez description...
+            Insérez description...
           </div>
         </div>
       </div>
@@ -348,15 +341,15 @@ Ses habitants sont appelés les Gaillonnais.
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Peronne</div>
-            <div class="card-subtitle text-gray">Commune</div>
+            <div class="card-title h5">Brest</div>
+            <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="../carte/peronne.jpg" class="img-responsive">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Péronne est une commune française du département de la Somme, en région Haut-de-France.
+            Insérez description...
           </div>
         </div>
       </div>
